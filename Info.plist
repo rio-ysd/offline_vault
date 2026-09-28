@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleDisplayName</key><string>OfflineVault</string>
+<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+<key>CFBundleName</key><string>OfflineVault</string>
+<key>CFBundleShortVersionString</key><string>1.0</string>
+<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+<key>LSRequiresIPhoneOS</key><true/>
+<key>NSCameraUsageDescription</key><string>写真とビデオを端末内に保存するためにカメラを使用します。</string>
+<key>NSLocalNetworkUsageDescription</key><string>インターネットを経由せず、近くの端末とファイルを交換するために使用します。</string>
+<key>NSBonjourServices</key><array><string>_offline-vault._tcp</string></array>
+<key>UIRequiredDeviceCapabilities</key><array><string>camera-flash</string></array>
+<key>UILaunchScreen</key><dict><key>UIColorName</key><string>LaunchBackground</string></dict>
+</dict></plist>

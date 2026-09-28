@@ -1,0 +1,7 @@
+DerivedData/
+.build/
+*.xcuserstate
+xcuserdata/
+*.p12
+*.mobileprovision
+AppStoreConnectKey.p8
